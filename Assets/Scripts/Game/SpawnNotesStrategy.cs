@@ -8,11 +8,11 @@ namespace Game {
 		public Transform[] linesToSpawn; 
 
 
-		protected override void OnRedNote() {
+		protected override void OnRedNote(Note note) {
 			
 		}
 
-		protected override void OnBlueNote() {
+		protected override void OnBlueNote(Note note) {
 		}
 	}
 }
