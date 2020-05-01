@@ -12,7 +12,6 @@ namespace Game {
 		}
 
 		private void ProcessNote(Note note) {
-			Debug.Log(note.name);
 		}
 	}
 }

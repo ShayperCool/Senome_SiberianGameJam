@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ee013d9cd6448cbae3e4963e176de42, type: 3}
   m_Name: Red
   m_EditorClassIdentifier: 
-  pointsCount: 0
-  sprite: {fileID: 0}
+  pointsCount: 12
   duration: 0
