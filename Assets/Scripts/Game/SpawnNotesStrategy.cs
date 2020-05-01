@@ -5,12 +5,7 @@ namespace Game {
 	public class SpawnNotesStrategy : NoteStrategy {
 
 		//Линии для спавна
-		public Transform firstLine;
-		public Transform secondLine;
-		public Transform thirdLine;
-		public Transform fourthLine;
-		public Transform fifthLine;
-		public Transform sixthLine;
+		public Transform[] linesToSpawn; 
 
 
 		protected override void OnRedNote() {
