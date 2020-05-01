@@ -1,27 +1,36 @@
-﻿using System.Collections;
+﻿using Game;
+using Game.Models;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DeleteNote : MonoBehaviour
 {
     public KeyCode keyToDelete = KeyCode.Q;
+    
     private Collider2D _collider;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    private bool _isDestroyed;
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(keyToDelete))
         {
             if (_collider!=null)
             {
+                GameManager.Singleton.currentNumberAttacks++;
+                _isDestroyed = true; 
                 Destroy(_collider.gameObject);
+
+                if (GameManager.Singleton.currentNumberAttacks>=GameManager.Singleton.numberAttacks)
+                { 
+                    GameManager.Singleton.hpBoss -= 5; 
+                    GameManager.Singleton.currentNumberAttacks = 0;
+                }
+                
             }
         }
+
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -31,13 +40,16 @@ public class DeleteNote : MonoBehaviour
             _collider = collision;
         }
     }
-    //private void OnTriggerStay2D(Collider2D collision)
-    //{
-    //    if (collision.tag == "notes" && Input.GetKeyDown(KeyCode.Q))
-    //    {
-    //        Destroy(collision.gameObject);
-    //    }
-    //}
-    
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (!_isDestroyed)
+        {
+            GameManager.Singleton.currentNumberAttacks = 0;
+            GameManager.Singleton.hpPerson -= 5;
+        }
+        Destroy(collision.gameObject);
+    }
+
 
 }

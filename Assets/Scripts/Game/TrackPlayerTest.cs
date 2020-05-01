@@ -6,10 +6,11 @@ namespace Game {
 		public AnimationClip clip;
 		public TrackPlayer player;
 
-
 		private void Update() {
-			if(Input.GetKeyDown(KeyCode.KeypadEnter))
+			if (Input.GetKeyDown(KeyCode.KeypadEnter))
+			{
 				player.PlayTrack(clip);
+			}				
 		}
 	}
 }

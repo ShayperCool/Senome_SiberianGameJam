@@ -10,11 +10,9 @@ public class Notes : MonoBehaviour
     public float Time;
     public bool Stop;
 
-    public static bool isDelete;
     void Start()
     {
         StartCoroutine(Spawn());
-        isDelete = false;
     }
 
     IEnumerator Spawn()
