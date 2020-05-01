@@ -2,17 +2,17 @@
 using UnityEngine;
 
 namespace Game {
-	public class SpawnNotesStrategy : NoteStrategy {
-
-		//Линии для спавна
+	public class SpawnNotesStrategy : MonoBehaviour {
+		
+		
 		public Transform[] linesToSpawn; 
 
-
-		protected override void OnRedNote(Note note) {
-			
+		private void Start() {
+			EventsDelegator.Singleton.target = ProcessNote;
 		}
 
-		protected override void OnBlueNote(Note note) {
+		private void ProcessNote(Note note) {
+			Debug.Log(note.name);
 		}
 	}
 }

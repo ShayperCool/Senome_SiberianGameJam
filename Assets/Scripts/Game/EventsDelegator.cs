@@ -8,7 +8,7 @@ namespace Game {
 		public static EventsDelegator Singleton { get; private set; }
 		public Action<Note> target;
 
-		private void Start() {
+		private void Awake() {
 			InitSingleton();
 		}
 
