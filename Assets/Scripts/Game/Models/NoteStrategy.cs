@@ -9,13 +9,13 @@ namespace Game.Models {
 
 		private void ProcessNote(Note note) {
 			if(note.name == "red")
-				OnRedNote();
+				OnRedNote(note);
 			else if(note.name == "blue")
-				OnBlueNote();
+				OnBlueNote(note);
 		}
 
-		protected abstract void OnRedNote();
-		protected abstract void OnBlueNote();
+		protected abstract void OnRedNote(Note note);
+		protected abstract void OnBlueNote(Note note);
 
 	}
 }
