@@ -7,7 +7,7 @@ namespace Game {
 
 		public static EventsDelegator Singleton { get; private set; }
 		public Action<Note> target;
-
+		
 		private void Awake() {
 			InitSingleton();
 		}
@@ -21,8 +21,8 @@ namespace Game {
 
 
 		public void OnNote(Note note) {
+
 			target?.Invoke(note);
 		}
-	
 	}
 }

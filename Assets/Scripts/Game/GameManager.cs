@@ -8,18 +8,22 @@ namespace Game {
 		//Задержка запуска анимации спавн нот
 		public float offset = 0f;
 		public TrackPlayer track;
-		public Text textHPPerson, textHPBoss;
+		public Slider HPPerson, HPBoss;
 		public int hpPerson = 100, hpBoss = 100;
 		public int numberAttacks, currentNumberAttacks;
-		
+		//последовательность дорожек
+		public int[] sequenceTrackNote;
+		public int currentSequenceTrackNote=0;
+
+
 		private void Start() {
 			InitSingleton();
 		}
 
 		void Update()
 		{
-			textHPBoss.text = hpBoss.ToString();
-			textHPPerson.text = hpPerson.ToString();
+			HPBoss.value = hpBoss;
+			HPPerson.value = hpPerson;
 		}
 
 		private void InitSingleton() {
@@ -33,6 +37,10 @@ namespace Game {
 			track.PlayTrack(clip, offset);
 		}
 		
+		public void IncreaseCurrentTrack()
+		{
+			currentSequenceTrackNote++;
+		}
 
 	}
 }
