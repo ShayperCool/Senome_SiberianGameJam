@@ -23,12 +23,14 @@ public class DeleteNote : MonoBehaviour
                 Destroy(_collider.gameObject);
 
                 if (GameManager.Singleton.currentNumberAttacks>=GameManager.Singleton.numberAttacks)
-                { 
-                    GameManager.Singleton.hpBoss -= 5; 
+                {
+                    GameManager.Singleton.imageMaxCombo.SetActive(false);
+                    GameManager.Singleton.hpBoss -= 10; 
                     GameManager.Singleton.currentNumberAttacks = 0;
                 }
                 
             }
+            _isDestroyed = false;
         }
 
     }
@@ -45,8 +47,14 @@ public class DeleteNote : MonoBehaviour
     {
         if (!_isDestroyed)
         {
-            GameManager.Singleton.currentNumberAttacks = 0;
-            GameManager.Singleton.hpPerson -= 5;
+            GameManager.Singleton.currentNumberMiss++;
+            if (GameManager.Singleton.currentNumberMiss >= GameManager.Singleton.numberMiss)
+            {
+                GameManager.Singleton.imageMaxComboBoss.SetActive(false);
+                GameManager.Singleton.currentNumberAttacks = 0;
+                GameManager.Singleton.currentNumberMiss = 0;
+                GameManager.Singleton.hpPerson -= 5;
+            }
         }
         Destroy(collision.gameObject);
     }
