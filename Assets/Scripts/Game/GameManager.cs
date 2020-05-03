@@ -10,11 +10,12 @@ namespace Game {
 		public TrackPlayer track;
 		public Slider HPPerson, HPBoss, ComboSlider, ComboSliderBoss;
 		public int hpPerson = 100, hpBoss = 100;
+		public int damagePerson, damageBoss;
 		public int numberAttacks, currentNumberAttacks, numberMiss, currentNumberMiss;
 		public GameObject imageMaxCombo, imageMaxComboBoss;
 		//последовательность дорожек
-		public int[] sequenceTrackNote;
-		public int currentSequenceTrackNote=0;
+		//public int[] sequenceTrackNote;
+		//public int currentSequenceTrackNote=0;
 
 
 		private void Start() {
@@ -33,9 +34,6 @@ namespace Game {
 			ComboSliderBoss.value = currentNumberMiss;
 			if (currentNumberAttacks == numberAttacks-1) imageMaxCombo.SetActive(true);
 			if (currentNumberMiss == numberMiss-1) imageMaxComboBoss.SetActive(true);
-
-			if (hpPerson <= 0) Debug.Log("Ты проиграл!");
-			if (hpBoss <= 0) Debug.Log("Ты Выиграл!");
 		}
 
 		private void InitSingleton() {
@@ -51,7 +49,7 @@ namespace Game {
 		
 		public void IncreaseCurrentTrack()
 		{
-			currentSequenceTrackNote++;
+			//currentSequenceTrackNote++;
 		}
 
 	}

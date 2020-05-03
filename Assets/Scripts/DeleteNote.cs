@@ -25,7 +25,7 @@ public class DeleteNote : MonoBehaviour
                 if (GameManager.Singleton.currentNumberAttacks>=GameManager.Singleton.numberAttacks)
                 {
                     GameManager.Singleton.imageMaxCombo.SetActive(false);
-                    GameManager.Singleton.hpBoss -= 10; 
+                    GameManager.Singleton.hpBoss -= GameManager.Singleton.damageBoss; 
                     GameManager.Singleton.currentNumberAttacks = 0;
                 }
                 
@@ -51,9 +51,10 @@ public class DeleteNote : MonoBehaviour
             if (GameManager.Singleton.currentNumberMiss >= GameManager.Singleton.numberMiss)
             {
                 GameManager.Singleton.imageMaxComboBoss.SetActive(false);
+                GameManager.Singleton.imageMaxCombo.SetActive(false);
                 GameManager.Singleton.currentNumberAttacks = 0;
                 GameManager.Singleton.currentNumberMiss = 0;
-                GameManager.Singleton.hpPerson -= 5;
+                GameManager.Singleton.hpPerson -= GameManager.Singleton.damagePerson;
             }
         }
         Destroy(collision.gameObject);
