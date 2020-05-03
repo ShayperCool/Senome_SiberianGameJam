@@ -12,6 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/SoloGame.unity
     guid: 5ddbe519465fb0f448f83f8a9781939b
   - enabled: 1
-    path: Assets/Scenes/ZHEKA.unity
-    guid: 9d1689c2c708ccd47a12757eb91202a1
+    path: Assets/Scenes/Level_1.unity
+    guid: 6c246eb8accc6ab4aaef146d3a768e24
+  - enabled: 1
+    path: Assets/Scenes/Level_2.unity
+    guid: 802db20376531f345a2bba157b5cfc89
+  - enabled: 1
+    path: Assets/Scenes/Level_3.unity
+    guid: 912e9c2d65e96514481e22c8b9a74910
   m_configObjects: {}
