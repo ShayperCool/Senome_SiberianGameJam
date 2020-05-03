@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Game;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +7,7 @@ public class KatScene : MonoBehaviour
 {
 	public GameObject closeVideo, startPanel, video;
 	public float offsetVideo, offsetButton;
+
 
 	private void Start()
 	{
@@ -15,12 +17,6 @@ public class KatScene : MonoBehaviour
 		StartCoroutine(OffsetVideo(offsetVideo));
 		StartCoroutine(OffsetButton(offsetButton));
 	}
-
-	private void Update()
-	{
-
-	}
-
 
 	private IEnumerator OffsetVideo(float offsett)
 	{
@@ -36,5 +32,11 @@ public class KatScene : MonoBehaviour
 		yield return new WaitForSeconds(offsett);
 		video.SetActive(false); 
 		closeVideo.SetActive(true);
+	}
+
+	public void closeVideoButton()
+	{
+		closeVideo.SetActive(false);
+		GameManager.Singleton.isPlayingVideo = false;
 	}
 }

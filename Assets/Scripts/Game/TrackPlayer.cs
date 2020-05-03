@@ -9,6 +9,8 @@ namespace Game {
 		public GameObject panelOver, panelWin;
 		public float gameLength;
 
+		private bool _isWin, _isOver;
+
 		private void Start() {
 			_animation = GetComponent<Animation>();
 			panelOver.SetActive(false);
@@ -17,13 +19,15 @@ namespace Game {
 
 		private void Update()
 		{
-			if (GameManager.Singleton.hpPerson <= 0)
+			if (GameManager.Singleton.hpPerson <= 0 && !_isWin)
 			{
 				_animation.Stop();
 				panelOver.SetActive(true);
+				_isOver = true;
 			}
-			if (GameManager.Singleton.hpBoss <= 0)
+			if (GameManager.Singleton.hpBoss <= 0 && !_isOver)
 			{
+				_isWin = true;
 				panelWin.SetActive(true);
 				_animation.Stop();
 			}
@@ -44,15 +48,17 @@ namespace Game {
 		IEnumerator stopGame()
 		{
 			yield return new WaitForSeconds(gameLength);
-			if (GameManager.Singleton.hpPerson <= GameManager.Singleton.hpBoss)
+			if (GameManager.Singleton.hpPerson <= GameManager.Singleton.hpBoss && !_isWin)
 			{
 				_animation.Stop();
 				panelOver.SetActive(true);
+				_isOver=true;
 			}
-			if (GameManager.Singleton.hpPerson > GameManager.Singleton.hpBoss)
+			if (GameManager.Singleton.hpPerson > GameManager.Singleton.hpBoss && !_isOver)
 			{
 				_animation.Stop();
 				panelWin.SetActive(true);
+				_isWin = true;
 			}
 		}
 
