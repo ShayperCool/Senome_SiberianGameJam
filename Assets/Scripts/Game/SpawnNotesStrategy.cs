@@ -17,9 +17,12 @@ namespace Game {
 
 		private void ProcessNote(Note note) {
 			if (note.name == "Empty") return;
-			if (note.name == "Guitar") notePrefab.GetComponent<Image>().sprite = spritesNote[0]; ;
-			if (note.name == "Piano") notePrefab.GetComponent<Image>().sprite = spritesNote[2]; ;
-			if (note.name == "Drum") notePrefab.GetComponent<Image>().sprite = spritesNote[1]; ;
+			if (note.name == "Guitar") 
+				notePrefab.GetComponent<Image>().sprite = spritesNote[0];
+			if (note.name == "Piano") 
+				notePrefab.GetComponent<Image>().sprite = spritesNote[2];
+			if (note.name == "Drum") 
+				notePrefab.GetComponent<Image>().sprite = spritesNote[1];
 			int idLine = Random.Range(0, lines.Length);
 			//int idTrack = GameManager.Singleton.currentSequenceTrackNote;
 			//int idLine = GameManager.Singleton.sequenceTrackNote[idTrack];
