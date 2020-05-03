@@ -17,8 +17,9 @@ namespace Game {
 		{
 			panelStart.SetActive(true);
 		}
-		private void Update() {
-			if (Input.GetKeyDown(KeyCode.Space) && _isPlayeng)
+		private void Update() 
+		{
+			if (Input.GetKeyDown(KeyCode.Space) && _isPlayeng && !GameManager.Singleton.isPlayingVideo)
 			{
 				panelStart.SetActive(false);
 				player.PlayTrack(clip);

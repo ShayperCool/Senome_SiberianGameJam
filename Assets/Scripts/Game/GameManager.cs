@@ -13,6 +13,8 @@ namespace Game {
 		public int damagePerson, damageBoss;
 		public int numberAttacks, currentNumberAttacks, numberMiss, currentNumberMiss;
 		public GameObject imageMaxCombo, imageMaxComboBoss;
+
+		public bool isPlayingVideo = true;
 		//последовательность дорожек
 		//public int[] sequenceTrackNote;
 		//public int currentSequenceTrackNote=0;

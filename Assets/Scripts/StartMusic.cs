@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using Game;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,7 +10,7 @@ public class StartMusic : MonoBehaviour
     private bool _isStart = false;
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space) && !_isStart)
+        if (Input.GetKeyDown(KeyCode.Space) && !_isStart  && !GameManager.Singleton.isPlayingVideo)
         {
             _isStart = true;
             StartCoroutine(toolsMusic());
