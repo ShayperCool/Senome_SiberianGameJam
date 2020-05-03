@@ -58,6 +58,7 @@ namespace Game {
 		{
 			offsett += offsetMusic + offset + offsetButton;
 			yield return new WaitForSeconds(offsett);
+			video.SetActive(false);
 			buttonNextLevel.SetActive(true);
 		}
 	}
