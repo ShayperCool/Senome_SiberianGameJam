@@ -7,9 +7,6 @@ using UnityEngine.UI;
 
 public class Buttons : MonoBehaviour
 {
-    
-
-    private int _a=0;
     public void OpenScene(int idScene)
     {
         SceneManager.LoadScene(idScene);
