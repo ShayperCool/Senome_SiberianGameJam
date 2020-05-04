@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using UnityEngine;
 
 namespace Game {
@@ -38,6 +39,11 @@ namespace Game {
 		private IEnumerator PlayHit(Animator animator) {
 			yield return new WaitForSeconds(offset);
 			animator.Play("hit");
+		}
+
+		private void OnDestroy() {
+			DeleteNote.CharacterAttack -= Attack;
+			DeleteNote.EnemyAttack -= Attack;
 		}
 	}
 }
