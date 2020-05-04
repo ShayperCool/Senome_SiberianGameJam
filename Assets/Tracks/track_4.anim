@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: track_3
+  m_Name: track_4
   serializedVersion: 6
   m_Legacy: 1
   m_Compressed: 0
@@ -54,7 +54,7 @@ AnimationClip:
   - time: 0
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -70,7 +70,7 @@ AnimationClip:
   - time: 1.5
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -78,7 +78,7 @@ AnimationClip:
   - time: 2
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -86,7 +86,7 @@ AnimationClip:
   - time: 2.5
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -94,7 +94,7 @@ AnimationClip:
   - time: 3
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -110,7 +110,7 @@ AnimationClip:
   - time: 4
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -118,7 +118,7 @@ AnimationClip:
   - time: 4
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -134,7 +134,7 @@ AnimationClip:
   - time: 5
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -142,7 +142,7 @@ AnimationClip:
   - time: 5
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -158,7 +158,7 @@ AnimationClip:
   - time: 6
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -166,7 +166,7 @@ AnimationClip:
   - time: 6
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -182,7 +182,7 @@ AnimationClip:
   - time: 7
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -206,7 +206,7 @@ AnimationClip:
   - time: 8
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -230,7 +230,7 @@ AnimationClip:
   - time: 9
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -254,7 +254,7 @@ AnimationClip:
   - time: 10
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -278,7 +278,7 @@ AnimationClip:
   - time: 11
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -326,7 +326,7 @@ AnimationClip:
   - time: 13
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -350,7 +350,7 @@ AnimationClip:
   - time: 14
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -382,7 +382,7 @@ AnimationClip:
   - time: 15
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -390,7 +390,7 @@ AnimationClip:
   - time: 15.5
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -522,10 +522,18 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 22
+    functionName: OnNote
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 22.5
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -533,7 +541,7 @@ AnimationClip:
   - time: 23
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -541,7 +549,7 @@ AnimationClip:
   - time: 23.5
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -558,6 +566,14 @@ AnimationClip:
     functionName: OnNote
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 24
+    functionName: OnNote
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -586,6 +602,14 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 25.5
+    functionName: OnNote
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 26
     functionName: OnNote
     data: 
@@ -598,6 +622,14 @@ AnimationClip:
     functionName: OnNote
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: da44593daab0442489e8e7c64ebd111c,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 26
+    functionName: OnNote
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -682,6 +714,14 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 30
+    functionName: OnNote
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 30.5
     functionName: OnNote
     data: 
@@ -710,6 +750,14 @@ AnimationClip:
     functionName: OnNote
     data: 
     objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+      type: 2}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 32
+    functionName: OnNote
+    data: 
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -1101,7 +1149,7 @@ AnimationClip:
   - time: 58
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -1149,7 +1197,7 @@ AnimationClip:
   - time: 60
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -1189,7 +1237,7 @@ AnimationClip:
   - time: 62
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -1205,7 +1253,7 @@ AnimationClip:
   - time: 62.5
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -1421,7 +1469,7 @@ AnimationClip:
   - time: 82
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -1429,7 +1477,7 @@ AnimationClip:
   - time: 83
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -1437,7 +1485,7 @@ AnimationClip:
   - time: 84
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -1453,7 +1501,7 @@ AnimationClip:
   - time: 86
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0
@@ -1461,7 +1509,7 @@ AnimationClip:
   - time: 86.5
     functionName: OnNote
     data: 
-    objectReferenceParameter: {fileID: 11400000, guid: 3899d469e25c1a44c8c08b3c933dc483,
+    objectReferenceParameter: {fileID: 11400000, guid: 9c6f2cf807002f74dad242afbf05ea06,
       type: 2}
     floatParameter: 0
     intParameter: 0

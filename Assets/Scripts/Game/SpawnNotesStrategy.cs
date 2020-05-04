@@ -28,6 +28,8 @@ namespace Game {
 				notePrefab.GetComponent<Image>().sprite = spritesNote[2];
 			if (note.name == "Drum") 
 				notePrefab.GetComponent<Image>().sprite = spritesNote[1];
+			if (note.name == "Tybe")
+				notePrefab.GetComponent<Image>().sprite = spritesNote[3];
 			int idLine = _linesIds[Random.Range(0, lines.Length)];
 			_linesIds.Remove(idLine);
 			FreeLine(idLine);
