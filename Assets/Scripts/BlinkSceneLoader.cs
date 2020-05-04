@@ -24,10 +24,6 @@ namespace SceneManagement {
 		}
 
 		private void InitSingleton() {
-			if (Singleton) {
-				Destroy(gameObject);
-				return;
-			}
 			Singleton = this;
 		}
 

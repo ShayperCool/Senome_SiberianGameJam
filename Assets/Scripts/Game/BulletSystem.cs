@@ -17,10 +17,7 @@ namespace Game {
 		}
 
 		private void InitSingleton() {
-			if (Singleton)
-				Destroy(gameObject);
-			else
-				Singleton = this;
+			Singleton = this;
 		}
 
 		public void PlayerAttack() {
